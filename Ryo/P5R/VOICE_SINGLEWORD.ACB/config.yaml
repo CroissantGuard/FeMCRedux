@@ -1,0 +1,15 @@
+# Set the ACB name the cue is from.
+acb_name: 'voice_singleword'
+
+# What audio player to play audio with.
+# For replacing audio besides BGM, set the ID to -1.
+# -1 will inherit the player of the replaced cue.
+player_id: -1
+
+# Category IDs to set on player when playing cue.
+category_ids: [2]
+
+# Volume setting. Range: 0.0 to 1.0+
+volume: 0.85
+
+use_player_volume: true
